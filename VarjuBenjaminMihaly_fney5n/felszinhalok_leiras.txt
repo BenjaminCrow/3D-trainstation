@@ -1,0 +1,8 @@
+A blender objektumokhoz (sín + mozdony), amelyeket a 3. kis beadandóra készítettem, és most importáltam őket:
+
+Egy cube-ból indultam ki, amiből előszőr is lemodelleztem a sínt. Az alap cube-ot átméreteztem, Ctrl + R-el kijelöltem rajta az oldalakat, majd az így létrejött oldalakat E-vel expandoltam, amíg meg nem kaptam a sín egy szegmensét. Ezt az X tengelyen tükröztem, és addig expandoltam, amíg össze nem ért középen a két oldal. Hozzáadtam még arrayt, hogy szép folytonos legyen a sín.
+A kerekeket cilinderből készítettem, itt is tükröztem és arraybe tettem őket, hogy több és folytonos legyen. A mozdony testét is egy cube-ból modelleztem, ahol szintén tükrözéssel kaptam meg a teljes alakot, itt a tükör középponta a sínt jelképező cube volt. 
+Végül Ctrl+R-el kijelöltem azokat az oldalakat, ahova szerettem volna ablakot kapni, és ezen oldalak törlésével ez sikerült is.
+
+A vasútállomást, és jelzőlámpákat beépített Three.js geometriákból hoztam létre. A vasútállomás alapját 3 BoxGeometry adja, amelyek együtt egy H alakú épület alakját veszik fel. A tetejét ConeGeometry-k alkotják, a központi tetőt pedig egy CylinderGeometry.
+A jelzőlámpákát CylinderGeometry-vel alkottam meg, a háromszőg alakú test, amin a lámpa van egy három csúcsú, még a fényforrás helye és az oszlop is 360 csúcsú CylinderGeometry, így henger alakot vesznek fel.
