@@ -11,6 +11,6 @@ The train and the rails were originally created in blender, but after importing 
 
 The project uses the following technologies: javascript, html, three.js library
 
-In orded to make the program work on your own setup, you have to install the three.js library and configure its relative path in the project.
+In orded to make the program work on your own setup, you have to install the three.js library and configure its relative path in the source code.
 
 For the sake of simplicity I've created a short video.
